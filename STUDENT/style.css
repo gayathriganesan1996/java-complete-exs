@@ -1,0 +1,24 @@
+.btn{
+    width: 100%;
+    margin-top: 10px;
+}
+.form-group{
+    margin-top: 10px;
+}
+.card-header{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.row{
+    justify-content: center;
+}
+.card{
+    background-color: #b9a1a5;
+}
+.form-group label{
+    font-family: sans-serif;
+}
+.container{
+    margin-bottom: 70px;
+}

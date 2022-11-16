@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>The onclick Event</h2>
+    <button onclick="myFunction()">Click me</button>
+    <p id="demo"></p>
+    <h2>The onmouseover Event</h2>
+    <button onmouseover="mouseover()">Click</button>
+    <p id="demo1"></p>
+    <h2>The onmouseout Event</h2>
+    <button onmouseout="mouseout()">Click</button>
+    <p id="demo2"></p>
+    <h2>The onmouseupEvent</h2>
+    <button onmouseup="mouseup()">Click</button>
+    <p id="demo3"></p>
+    <h2>The input event</h2>
+    <input type="text" id="myInput" oninput="input()">
+    <p id="demo4"></p>
+    <h2>The onvalid event</h2>
+    <form action="/action_page.php" method="get">
+        Name: <input type="text" oninvalid="alert('You must fill out the form!');" name="fname" required>
+        <input type="submit" value="Submit">
+      </form>
+      <h2>The onchanges event</h2>
+      <select id="mySelect" onchange="onchanges()">
+        <option value="Bus">Bus</option>
+        <option value="Car">Car</option>
+        <option value="Train">Train</option>
+        <option value="Van">Van</option>
+      </select>
+      <p id="demo5"></p>
+      <h2>The Onfocus event</h2>
+      <input type="text" id="mytext" onfocus="myfocus(this)">
+      <p id="demo6"></p>
+      <h2>The keypress event</h2>
+      <input type="text" onkeypress="keypress()">
+      <h2>The keyup event</h2>
+      <input type="text" id="fname" onkeyup="keyup()">
+      <h2>The Submit event</h2>
+      <form action="/action_page.php" onsubmit="getsubmit()">
+        Enter name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+      </form>
+      <h2>The Onselect event</h2>
+      <input type="text" value="Hello world!" onselect="sel()">
+      <h2>The keycode event</h2>
+      <input type="text" size="40" onkeypress="board(event)">
+      <p>"The Unicode value is:"</p>
+        <p id="demo7"></p>
+        <h2>The blur event</h2>
+        Enter your name: <input type="text" id="name" onblur="myfun()">
+        <h2>The dblclick event</h2>
+        <p ondblclick="dblclick()">Double-click this paragraph to trigger a function.</p>
+        <p id="demo8"></p>
+        <h2>The mousedown event</h2>
+        <p id="myP" onmousedown="mouseDown()">and sets the color of the text to red.</p>
+        <h2>The oncut event</h2>
+        <input type="text" oncut="getcut()" value="Try to cut this text">
+        <p id="demo9"></p>
+        <h2>The oncopy event</h2>
+        <input type="text" oncopy="getcopy()" value="Try to copy this text">
+        <p id="demo10"></p>
+        <h2>The Preventdefault event</h2>
+        <a id="myAnchor" href="https://w3schools.com/">IMAGE.com</a>
+        <script src="index.js"></script>
+</body>
+</html>
